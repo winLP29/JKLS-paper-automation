@@ -1,4 +1,5 @@
 **JKLS Paper Automation**
+
 1.Overview
 
 This project automatically collects research papers from arXiv for the JKLS Big Data Analysis project.
@@ -6,29 +7,36 @@ This project automatically collects research papers from arXiv for the JKLS Big 
 The goal is to reduce the time required to manually search for papers and organize their information.
 
 2.Workflow
+
 arXiv API
+    
     ↓
+
 Python paper collection
+    
     ↓
+
 Duplicate removal
+    
     ↓
+
 CSV dataset
 
-Collected Data
+3.Collected Data
 
 The program collects:
 
-Paper title
+1)Paper title
 
-Abstract
+2)Abstract
 
-Publication date
+3)Publication date
 
-DOI, when available
+4)DOI, when available
 
-arXiv URL
+5)arXiv URL
 
-3.How to Run
+4.How to Run
 
 Install the required package:
 
@@ -44,13 +52,14 @@ The collected papers are saved to:
 
 data/papers.csv
 
-4.Configuration
+5.Configuration
 
 The search topic and number of papers can be changed in collect_papers.py.
 
 For example:
 
 QUERY = "large language model"
+
 MAX_RESULTS = 100
 
 
@@ -62,7 +71,7 @@ This project handles the automated paper collection and initial data preparation
 
 The collected dataset will later be used for LLM-based paper classification, summarization, and monthly research-trend analysis.
 
-5.Current Status
+6.Current Status
 
 The first version successfully collects papers from arXiv and saves them as a CSV dataset.
 
