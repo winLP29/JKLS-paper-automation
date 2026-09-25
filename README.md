@@ -21,15 +21,15 @@ CSV dataset
 
 The program collects:
 
-Paper title
+1. Paper title
 
-Abstract
+2. Abstract
 
-Publication date
+3. Publication date
 
-DOI, when available
+4. DOI, when available
 
-arXiv URL
+5. arXiv URL
 
 ## How to Run
 
